@@ -4,5 +4,11 @@
   "task.allowAutomaticTasks": "on",
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor"
+  },
+  "files.exclude": {
+    "**/._*": true,
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/git-env.sh": true
   }
 }
